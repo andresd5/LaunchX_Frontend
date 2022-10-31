@@ -1,0 +1,216 @@
+h1 { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+h2 { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
+
+body{
+    background: #fff8e7;
+    margin: 0;
+	padding: 0;
+    padding-top: 130px; 
+}
+
+
+
+.header-principal{
+    background: #6995be; 
+
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0;
+    position: fixed;
+
+    
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-principal-logo{
+    width: 125px;
+    height: 125px;
+}
+
+.header-principal-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header-principal-nav ul{
+    display: flex;
+
+    
+}
+
+.headerPrincipal-nav-link{
+    
+    text-align:center;
+    margin: 0 25px 0 0;
+    background-color:#f57669;
+    border:5px solid#f57669;
+    border-radius: 50px;
+}
+
+.header-principal-nav-link,a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.headerPrincipal-nav-link-diferente{
+    text-align:center;
+    margin: 0 25px 0 0;
+    background-color:#ffffff;
+    border:5px solid#ffffff;
+    border-radius: 50px;
+    color: #f57669;
+    
+}
+
+
+.titulo-principal{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align:center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.informacion-container{
+    border-radius: 30px;
+    height: 420px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f57669;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.informacion-container-texto{
+    width: 50%;
+    height: 100%;
+    margin-right: 8px;
+    margin-left: 8px;
+    /*background: #f5f6f5;*/
+}
+
+
+
+.informacion-container-texto-subtitulo{
+    font-size :28px;
+    text-align:center;
+    margin-top: 9px;
+    font-weight : bold;
+}
+
+.informacion-container-texto-texto{
+    text-align: justify;
+    font-size:24px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.video-pasteleria{
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 50%;
+    
+
+}
+
+.titulo-productos{
+    margin-top: 20px;
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+.Productos-lista{
+    display: flex;
+    justify-content: center;
+}
+.producto-bloque{
+    margin: 10px 10px 10px 10px;
+}
+
+.producto-bloque p{
+        font-family:'Courier New', Courier, monospace;
+
+}
+
+.Productos-lista-adornos{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.formulario-pedido-titulo{
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.formulario-container{
+    display: flex;
+    background-color: #fff8e7;
+    justify-content: center;
+
+}
+
+.formulario-contenido{
+    border-radius: 30px;
+    background-color:#f57669;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+.form-nombre{
+    margin-top: 20px;
+}
+
+.input2{
+    transition: width 0.4s ease-in-out;
+    height: 40px;
+    width: 500px;
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+
+.input2:focus {
+    height: 60px;
+  }
+
+.submit{
+    font-size: 17px;
+    border-radius: 30px;
+    background-color: #6995be;
+    border:5px solid#6995be;
+
+}
+
+.footer-container{
+    display: flex;
+    height:50px;
+    background-color:#6995be;
+    justify-content: center;
+    
+}
+
+.footer-texto{
+    margin-top:10px;
+    justify-content: center;
+    text-align: center;
+}
